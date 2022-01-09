@@ -1,0 +1,41 @@
+.card_main {
+  background: #2eb2d9;
+  font-family: "SF Pro Display";
+  color: #ffffff;
+  padding: 46px auto 70px;
+  border-radius: 20px;
+  .title {
+    font-weight: bold;
+    font-size: 36px;
+  }
+  .sub_title {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  .text {
+    font-weight: 500;
+    font-size: 18px;
+  }
+}
+
+.card_sub {
+  border-radius: 10px;
+  font-family: "SF Pro Text";
+  .top_title {
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .title {
+    font-weight: 700;
+    font-family: "SF Pro Display";
+    font-size: 22px;
+  }
+  .text {
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .score {
+    @extend .text;
+    font-weight: 700;
+  }
+}

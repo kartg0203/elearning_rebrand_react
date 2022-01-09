@@ -1,0 +1,31 @@
+.footer {
+  background: #6f6f6f;
+  font-family: "SF Pro Text";
+  .li:first-child {
+    color: #2eb2d9;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .li {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .copyright {
+    font-size: 16px;
+    color: #ffffff;
+  }
+
+  .about {
+    .text {
+      font-weight: 400;
+      font-size: 16px;
+      color: #ffffff;
+    }
+    .ourscool {
+      font-weight: 700;
+      color: #2eb2d9;
+      font-size: 18px;
+    }
+  }
+}

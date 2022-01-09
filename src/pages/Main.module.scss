@@ -1,0 +1,39 @@
+.banner {
+  background: #eca88a;
+  font-family: "SF Pro Display";
+  font-weight: 700;
+  .card_title {
+    font-size: 36px;
+  }
+  .card_sub_title {
+    font-size: 24px;
+  }
+  .btn_color {
+    color: #eca88a;
+    font-family: "SF Pro Text";
+  }
+
+  .box {
+    img {
+      border-radius: 10px;
+    }
+    .text {
+      font-family: "SF Pro Text";
+      color: #ffffff;
+      font-weight: 500;
+      font-size: 18px;
+    }
+  }
+}
+
+.service {
+  font-family: "SF Pro Text";
+  font-size: 18px;
+  .title {
+    font-weight: 700;
+  }
+  .text {
+    font-weight: 500;
+    color: #6f6f6f;
+  }
+}
