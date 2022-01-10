@@ -9,6 +9,12 @@ import CardSubTitle from "../components/Card/CardSubTitle";
 import Button from "../components/Button/Button";
 import Service from "./Service.jsx";
 const Main = () => {
+  const boxes = [
+    {id: 1, image: "https://fakeimg.pl/355x357/", text: '完整收錄500題新多益熱門必考文法題型，重點學習，提升效率！'},
+    {id: 2, image: "https://fakeimg.pl/355x357/", text: '完整收錄5300題新多益熱門必考文法題型，重點學習，提升效率！'},
+    {id: 3, image: "https://fakeimg.pl/355x357/", text: '完整收錄44題新多益熱門必考文法題型，重點學習，提升效率！'},
+  ];
+
 
   return <div className="main py-5">
     <div className="container">
@@ -24,7 +30,7 @@ const Main = () => {
     </div>
     <div className={MainCss.banner}>
       <div className="container">
-        <div className="row">
+        <div className="row gx-4">
           <div className="col-3">
             <Card cardClass="bg-transparent border-0">
               <CardTitle class={`${MainCss.card_title} text-white`} text="Ourscool News" />
@@ -36,25 +42,17 @@ const Main = () => {
             <Tiger />
           </div>
           <div className="col-9">
-            <div className="row justify-content-between">
-              <div className="col-3">
-                <div className={`${MainCss.box}`}>
-                  <img src="https://fakeimg.pl/355x357/" />
-                  <p className={MainCss.text}>完整收錄500題新多益熱門必考文法題型，重點學習，提升效率！</p>
-                </div>
-              </div>
-              <div className="col-3">
-                <div className={`${MainCss.box}`}>
-                  <img src="https://fakeimg.pl/355x357/" />
-                  <p className={MainCss.text}>完整收錄500題新多益熱門必考文法題型，重點學習，提升效率！</p>
-                </div>
-              </div>
-              <div className="col-3">
-                <div className={`${MainCss.box}`}>
-                  <img src="https://fakeimg.pl/355x357/" />
-                  <p className={MainCss.text}>完整收錄500題新多益熱門必考文法題型，重點學習，提升效率！</p>
-                </div>
-              </div>
+            <div className="row justify-content-around">
+                  {/* {
+                  boxes.map(box=>{
+                    return  <div className="col-3" key={box.id}>
+                                <div className={`${MainCss.box}`}>
+                                  <img src={box.image} />
+                                  <p className={MainCss.text}>{box.text}</p>
+                                </div>
+                              </div>
+                  })
+                  } */}
             </div>
           </div>
         </div>

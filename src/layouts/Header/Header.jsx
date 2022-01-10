@@ -1,5 +1,5 @@
-import NavBar from "../components/NavBar/NavBar";
-import Marquee from "../components/Marquee/Marquee";
+import NavBar from "../../components/NavBar/NavBar";
+import Marquee from "../../components/Marquee/Marquee";
 import "./Header.scss";
 const Header = () => {
   return (

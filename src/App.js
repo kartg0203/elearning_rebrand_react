@@ -1,6 +1,6 @@
-import Header from "./pages/Header";
+import Header from "./layouts/Header/Header";
 import Main from "./pages/Main";
-import Footer from "./pages/Footer";
+import Footer from "./layouts/Footer/Footer";
 
 export default function App() {
   return (
